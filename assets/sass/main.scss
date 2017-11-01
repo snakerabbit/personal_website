@@ -105,6 +105,7 @@
 
 	h2 {
 		font-size: 1.35em;
+		
 		line-height: 1.75em;
 
 		@include breakpoint(small) {
