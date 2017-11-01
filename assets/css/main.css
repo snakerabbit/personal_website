@@ -2484,6 +2484,7 @@
 
 /* Spotlight */
 
+
 	.spotlight {
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -2503,6 +2504,11 @@
 			border-radius: 0;
 			width: 40%;
 		}
+
+		.spotlight .image:hover {
+			opacity: 0.4;
+		}
+
 
 			.spotlight .image img {
 				border-radius: 0;
@@ -2525,6 +2531,7 @@
 			-ms-flex-direction: row-reverse;
 			flex-direction: row-reverse;
 		}
+
 
 		.spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.075);
@@ -2577,6 +2584,8 @@
 			}
 
 		}
+
+
 
 		@media screen and (max-width: 980px) {
 
@@ -2799,7 +2808,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #2e3842;
 			color: #d3d4e4;
 		}
 
